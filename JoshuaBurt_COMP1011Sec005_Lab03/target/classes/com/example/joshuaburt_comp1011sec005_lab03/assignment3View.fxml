@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="257.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.joshuaburt_comp1011sec005_lab03.Assignment3Controller">
+    <children>
+        <VBox layoutX="10.0" layoutY="10.0">
+            <children>
+                <Label text="Enter Data:" />
+                <HBox spacing="10">
+                    <children>
+                        <TextField fx:id="query" promptText="enter query" prefWidth="400.0" />
+
+                        <Button fx:id="queryData" text="Query" onMouseClicked="#queryData" />
+                        <Button fx:id="isntructions" text="Instructions" onMouseClicked="#instructions"/>
+                        <Button fx:id="showAll" text="Show All" onMouseClicked="#showAll"/>
+                        <Button fx:id="clearView" text="Clear View" onMouseClicked="#clearView"/>
+                        <Button fx:id="clearDatabase" text="Reset" onMouseClicked="#clearDatabase"/>
+                    </children>
+                </HBox>
+                <Label text="Game Data:" />
+                <TextArea fx:id="textArea" prefHeight="153.0" prefWidth="1100.0" wrapText="true" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
