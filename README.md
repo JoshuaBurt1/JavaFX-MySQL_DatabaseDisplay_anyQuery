@@ -1,7 +1,5 @@
-# JoshuaBurt_COMP1011Sec005_Lab03
-JavaFX/MySQL; display any query result in TextArea
+# Connecting to MySQL with IntelliJ
 
-Connecting to MySQL with IntelliJ
 1.	Download a test server ie. WampServer https://sourceforge.net/projects/wampserver/
 2.	Download MySQL Workbench https://dev.mysql.com/downloads/workbench/ 
 3.	Run WampServer
