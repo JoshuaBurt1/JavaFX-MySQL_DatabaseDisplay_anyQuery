@@ -59,6 +59,7 @@ public class Assignment3Controller implements Initializable {
             preparedStatement.close();
         }
         catch (SQLException e) {
+            textArea.appendText("Error in SQL syntax or table does not exist.");
             e.printStackTrace();
         }
     }
