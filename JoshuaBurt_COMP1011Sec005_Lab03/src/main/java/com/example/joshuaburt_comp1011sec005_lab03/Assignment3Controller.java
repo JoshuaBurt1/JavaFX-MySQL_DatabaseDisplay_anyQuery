@@ -71,12 +71,13 @@ public class Assignment3Controller implements Initializable {
         textArea.appendText("SHOW TABLES " + "\n");
         textArea.appendText("SHOW COLUMNS FROM 'x' " + "\n");
         textArea.appendText("SELECT * FROM 'x' " + "\n");
+        textArea.appendText("CREATE TABLE AnotherTable (column_name INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT, column_name2 VARCHAR(20) DEFAULT NULL, creation_date DATE DEFAULT NULL) ENGINE=InnoDB AUTO_INCREMENT=24" + "\n");
         textArea.appendText("INSERT INTO Game ('x') VALUES 'x' " + "\n");
         textArea.appendText("INSERT INTO Player ('x', 'y', 'z', 'a', 'b', 'c') VALUES ('x', 'y', 'z', 'a', 'b', 'c') " + "\n");
         textArea.appendText("INSERT INTO PlayerAndGame ('x', 'y', 'z', 'a') VALUES ('x','y','z','a') " + "\n");
-        textArea.appendText("UPDATE Game SET game_title = 'x' WHERE game_id = 31");
-        textArea.appendText("DELETE FROM PlayerAndGame WHERE player_game_id >= 35");
-
+        textArea.appendText("UPDATE Game SET game_title = 'x' WHERE game_id = 31" + "\n");
+        textArea.appendText("DELETE FROM PlayerAndGame WHERE player_game_id >= 35" + "\n");
+        textArea.appendText("DROP TABLE AnotherTable");
     }
 
     @FXML //Prints a report of all information
